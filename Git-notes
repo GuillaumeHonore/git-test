@@ -1,0 +1,29 @@
+In terminal after having installed GIT
+
+git config --global user.email guillaume.honore@gmail.com
+
+git config --list
+
+
+On the laptop, create a repository.
+Terminal, go to this rep. Type:
+$ git init
+This will initialise this rep as a git rep.
+
+$ git status
+This will show the different files and if there is a conflict (file not commited for instance)
+
+$ git add . 
+Will add all the files to the git rep.
+
+$ git commit -m "first commit" 
+-m is message. 
+
+$ git log --oneline
+Shows comments on all the previous commit
+
+$ git checkout REFERENCE_OBTAINED_WITH_ABOVE_COMMAND file
+Example
+$ git checkoutc1213e8 Templates/new.html
+This will revert this file to the previous committed version!
+
